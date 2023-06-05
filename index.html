@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Site Gamer</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <img
+                src="https://th.bing.com/th/id/R.2dabb971f0d0a4f9385dc088a58f46cc?rik=aS7NKzqCgxzOWQ&riu=http%3a%2f%2fpre14.deviantart.net%2f1770%2fth%2fpre%2ff%2f2014%2f233%2f2%2f1%2fmega_charizard_x_by_theblacksavior-d7w5clj.jpg&ehk=GfAvQgaTf3%2f1%2fxJvQG%2f9ykXk7lPemBWIJnIjqq2tutU%3d&risl=&pid=ImgRaw&r=0">
+            <div>]
+                <a href="#fim"> Entre em Contato </a>
+                <h1> Evolução <span class="titulo">WEB</span> Para Sua Empresa</h1>
+                <p> Olá! Sou o Gabriel Griuzaki, um especialista em criação de sites dedicado a fornecer soluções
+                    digitais
+                    personalizadas para empresas. Com uma combinação de talento em design e experiência técnica em HTML,
+                    CSS
+                    e JavaScript, crio sites de alta qualidade que destacam a identidade da sua marca. Meu objetivo é
+                    oferecer um site que seja visualmente atraente, responsivo e funcional, garantindo uma ótima
+                    experiência
+                    para os visitantes.
+                    Trabalho de forma colaborativa, valorizando o feedback dos clientes em cada etapa do projeto. Se
+                    você
+                    está procurando um site profissional e personalizado que se destaque, estou aqui para ajudar. Entre
+                    em
+                    contato comigo pelo telefone ou whatsapp <span class="number">+5533987003909</span> e vamos discutir
+                    suas necessidades.
+                    Vamos
+                    trabalhar juntos para tornar sua presença online um sucesso!</p>
+            </div>
+            <p class="final" id="fim">↦↦↦</p>
+            <button class="open" onclick="abrir()">Entrar em Contato</button>
+            
+        </section>
+
+        <form action="https://formsubmit.co/griuzaki@gmail.com" method="post">
+            <input class="name" type="text" name="name" required placeholder="Nome">
+            <input class="mail" type="email" name="email" required placeholder="Email">
+            <textarea placeholder="Digite sua duvida"></textarea>
+            <button class="send" type="submit">ENVIAR</button>
+            <button onclick="fechar()" type="button" class="redurn">VOLTAR</button>
+        </form>
+
+    </header>
+</body>
+<script>
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("section").style.opacity = 0.2
+    }
+
+    function fechar() {
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("section").style.opacity = 1
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,251 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #050505e2;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+
+header {
+    display: inline-block;
+    transition: opacity 2s;
+
+}
+
+section {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(https://4.bp.blogspot.com/-sdCkSTVI5NU/WAM2I1EUnwI/AAAAAAAAAsI/3nODIwBefUsg7zJq72yT-2RcidNjAI9JACLcB/s1920/papeldeparede-abstrato-tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+img {
+    position: relative;
+    opacity: 0.8;
+    margin-top: 3%;
+    width: 60%;
+    background: black;
+    mix-blend-mode: screen;
+    padding-right: 20%;
+}
+
+
+a {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-style: italic;
+    text-shadow: 15px 13px 1px cornflowerblue;
+  
+}
+
+
+a:hover {
+    color: #aa5615;
+    
+}
+
+h1 {
+    margin: 40px;
+    font-size: 30px;
+    color: #f8efef;
+    text-align: center;
+    text-decoration: underline;
+    filter: drop-shadow(2px 5px rgb(36, 11, 195));
+    letter-spacing: 20px;
+}
+
+h1:hover {
+    color: #aa5615;
+}
+
+
+p {
+    padding: 20px;
+    margin: 70px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #ffffff;
+    text-indent: 15px;
+    letter-spacing: 1px;
+}
+
+.final {
+   position: relative;
+   right: 70px;
+}
+
+.name {
+    display: block;
+    background: #ffffff;
+    border: 2px solid #5424f0;
+    border-radius: 5px;
+    height: 30px;
+    width: 190px;
+    margin: 50px;
+}
+
+.name::placeholder {
+    color: #000000;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.mail {
+    display: block;
+    background: #ffffff;
+    border: 2px solid #5424f0;
+    border-radius: 5px;
+    height: 30px;
+    width: 190px;
+    margin: 50px;
+}
+
+.mail::placeholder {
+    color: #000000;
+    font-size: 10px;
+    padding: 5px;
+}
+
+textarea {
+
+    padding: 10px;
+    display: block;
+    background: #ffffff;
+    border: 2px solid #5424f0;
+    border-radius: 5px;
+    margin: 0 0 50px 50px;
+    font-size: 12px;
+}
+
+textarea::placeholder {
+    color: #000000;
+    font-size: 10px;
+}
+
+.open {
+    margin-left: 30%;
+    position: relative;
+    bottom: 125px;
+    border: none;
+    border: 1px solid rgb(241, 117, 8);
+    background: #3e34d3;
+    border-radius: 50px;
+    padding: 1px;
+    font-weight: bold;
+    width: 80px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.open:hover {
+    opacity: 0.8;
+    color: #aa5615;
+}
+
+.send {
+    margin-left: 40px;
+    position: relative;
+    bottom: 30px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    background: #282ca9;
+    border-radius: 40px;
+    padding: 3px;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.send:hover {
+    opacity: 0.6;
+    color: #9797a1;
+}
+
+.redurn {
+    margin-left: 10px;
+    position: relative;
+    bottom: 30px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    background: #5a5757;
+    border-radius: 40px;
+    padding: 3px;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.redurn:hover {
+    opacity: 0.6;
+    color: #282ca9;
+}
+
+form {
+    background: #aa5615;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    transition: opacity 1s;
+
+    background-image: url(https://i.pinimg.com/originals/81/ae/44/81ae44c5662b8030c9c9bc57d3bb48a4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+span {
+    color: rgb(227, 120, 26);
+}
+
+
+@media (max-width: 968px) {
+    section {
+        background-size: contain;
+        background-position: top;
+    }
+
+    h1 {
+
+        font-size: 30px;
+        color: #f8efef;
+        text-align: center;
+        text-decoration: underline;
+        filter: drop-shadow(2px 5px rgb(36, 11, 195));
+        letter-spacing: 6px;
+    }
+
+    p {
+        margin-top: -10px;
+        padding: 20px;
+        font-size: 22px;
+        line-height: 40px;
+        color: #ffffff;
+        text-indent: 15px;
+        letter-spacing: 2px;
+    }
+
+    div {
+        margin-top: 50px;
+    }
+
+}
